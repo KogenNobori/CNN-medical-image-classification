@@ -1,5 +1,5 @@
 # CNN-image-classification
-This project aims to make medical image classification models using Convolutional Neural Network (CNN) built with Pytorch. At this stage, three different classification tasks are tried out: Pneumonia,Covid-19, and Brain tumors. The codes follow the same architecture, with the datasets altered. The repository contains jupyter notebooks for each trial.
+This project aims to make medical image classification models using Convolutional Neural Network (CNN) built with Pytorch. At this stage, three different classification tasks are tried out: Pneumonia,Covid-19, and Brain tumors. The codes follow the same architecture, with the datasets altered. The repository contains jupyter notebooks for the trials.
 
 ## References & Acknowledgements
 ### Datasets used:
