@@ -15,7 +15,7 @@ Retinal OCT &nbsp;... normal, CNV, DME, drusen
 Each project achieved 70-85% accuracy depending on the number of epochs. 
 
 ## Analysis
-Although improvements are essential, the 70-85% accuracy is promising, especially for the tasks with four or five classes, considering the small computational resources used.  The model was run on T4 GPU (or CPU when it is unavailable) on Google Colaboratory. In this project, in order to reduce the time taken for training, the images in the datasets are resized to 32x32 pixels. However, the accuracy may be improved by using higher-resolution images (e.g., 256x256), which will require more computational resources. Further improvements can be achieved by optimizing the hyperparameters (such as learning rate, number of epochs, batch size, depth of different kinds of layers, etc.)
+Although improvements are essential, the 70-85% accuracy is promising, especially for the tasks with four or five classes, considering the small computational resources used. In this project, the model was run on T4 GPU (or CPU when it is unavailable) on Google Colaboratory. In order to reduce the time taken for training, the images in the datasets are resized to 32x32 pixels. However, the accuracy may be improved by using higher-resolution images (e.g., 256x256), which will require more computational resources. Further improvements can be achieved by optimizing the hyperparameters (such as learning rate, number of epochs, batch size, depth of different kinds of layers, etc.)
 
 
 ## References & Acknowledgements
