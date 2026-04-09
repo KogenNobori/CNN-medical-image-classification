@@ -7,9 +7,9 @@ The structure of the CNN is based on the [PyTorch tutorial](https://docs.pytorch
 ## Classification tasks
 The classes the model aimed to identify in each dataset are as follows:  
 
-Pneumonia　&nbsp; ... normal, Pneumonia;  
+Pneumonia　&nbsp;... normal, Pneumonia;  
 Covid-19 &nbsp; &nbsp; &nbsp;... normal, Covid-19, viral Pneumonia;  
-Brain tumors... Glioma, Meningioma, Pituitary tumor, no tumor;  
+Brain tumors ... Glioma, Meningioma, Pituitary tumor, no tumor;  
 Retinal OCT &nbsp;... normal, CNV, DME, drusen  
 
 Each project achieved 70-85% accuracy depending on the number of epochs. Further improvements can be achieved by optimizing the hyperparameters.
