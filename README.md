@@ -17,16 +17,16 @@ Each project achieved 70-85% accuracy depending on the number of epochs. Further
 
 ## References & Acknowledgements
 ### Datasets used:
-https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset  
-https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia  
-https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset  
-https://www.kaggle.com/datasets/paultimothymooney/kermany2018
+[Covid-19 Image Dataset](https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset)  
+[Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)  
+[Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)  
+[Retinal OCT Images (optical coherence tomography)](https://www.kaggle.com/datasets/paultimothymooney/kermany2018)
 
   
 ### Code modified and adapted from:
-https://www.youtube.com/watch?v=ZBfpkepdZlw  
-https://www.youtube.com/watch?v=CtzfbUwrYGI  
-https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html  
+[Convolutional Neural Nets Explained and Implemented in Python (PyTorch)](https://www.youtube.com/watch?v=ZBfpkepdZlw)  
+[Image Classification CNN in PyTorch](https://www.youtube.com/watch?v=CtzfbUwrYGI)  
+[PyTorch tutorial](https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)  
 
 ### Other resources referenced:
 https://qiita.com/momoyama/items/aecf831fbf887f067d42  
