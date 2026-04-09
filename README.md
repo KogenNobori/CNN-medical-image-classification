@@ -12,7 +12,15 @@ Covid-19 &nbsp; &nbsp; &nbsp;... normal, Covid-19, viral Pneumonia;
 Brain tumors ... Glioma, Meningioma, Pituitary tumor, no tumor;  
 Retinal OCT &nbsp;... normal, CNV, DME, drusen  
 
-Each project achieved **70-85%** accuracy depending on the number of epochs. 
+Each project achieved **76-86%** accuracy depending on the number of epochs:
+
+ex) (task) &nbsp; ... (accuracy), (number of classes), (number of epochs)  
+Pneumonia　&nbsp;... 80.77%, 2 classes, 10 epochs  
+Covid-19 &nbsp; &nbsp; &nbsp;... 84.85%, 3 classes, 30 epochs    
+Brain tumors ...  85.62%, 4 classes, 10 epochs  
+Retinal OCT &nbsp; ... 76.24%, 4 classes, 3 epochs  
+
+*The accuracy cannot be compared straightforwardly between different tasks as the size of datasets also differs.
 
 ## Analysis
 Although improvements are essential, the 70-85% accuracy is promising, especially for the tasks with four or five classes, considering the small computational resources used. In this project, the model was run on T4 GPU (or CPU when it is unavailable) on Google Colaboratory. In order to reduce the time taken for training, the images in the datasets are resized to 32x32 pixels. However, the accuracy may be improved by using higher-resolution images (e.g., 256x256), which will require more computational resources. Further improvements can be achieved by optimizing the hyperparameters (such as learning rate, number of epochs, batch size, depth of different kinds of layers, etc.)
