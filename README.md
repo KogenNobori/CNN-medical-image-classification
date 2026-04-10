@@ -12,7 +12,7 @@ Covid-19 &nbsp; &nbsp; &nbsp;... normal, Covid-19, viral Pneumonia;
 Brain tumors ... Glioma, Meningioma, Pituitary tumor, no tumor;  
 Retinal OCT &nbsp;... normal, CNV, DME, drusen  
 
-Each project achieved **76-86%** accuracy depending on the number of epochs:
+Each trial achieved **76-86%** accuracy in the testing data depending on the number of epochs in the learning process:
 
 ex) (task) &nbsp; ... (accuracy), (number of classes), (number of epochs)  
 Pneumonia　&nbsp;... 80.77%, 2 classes, 10 epochs  
