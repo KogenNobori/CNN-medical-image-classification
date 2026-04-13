@@ -3,7 +3,7 @@ This project aims to develop medical image classification models using Convoluti
 
 ## Update: April 13th
 
-Modifying image size in the preprocessing from 32x32 to 256x256 resulted in a significant improvement in the accuracy in the Retinal OCT task **(76.24% -> % 97.0%)**. The updated notebook (Retinal_OCT_256x256.ipynb) has been also uploaded.
+Modifying image size in the preprocessing from 32x32 to 256x256 resulted in a significant improvement in the accuracy in the Retinal OCT task **(76.24% -> 97.0%)**. The updated notebook (Retinal_OCT_256x256.ipynb) has been also uploaded.
 
 ## Neural Network
 The structure of the CNN is based on the [PyTorch tutorial](https://docs.pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html). The image inputs from the datasets are resized to 32x32 pixels in preprocessing. The CNN consists of two convolutional layers with a 5x5 kernel, two max pooling layers, and three fully connected layers. Between the layers, the ReLU function is used as the activation function to introduce non-linearity. The cross-entropy loss is used as the loss function, and optimization is done by Stochastic Gradient Descent, which is supported by Autograd in PyTorch.
