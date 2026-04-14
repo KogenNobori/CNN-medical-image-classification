@@ -1,5 +1,6 @@
 # Jupyter notebooks
 Jupyter notebooks used for the projects are uploaded in this directory. There are four different kinds of tasks:  
+
 Pneumonia  
 Covid-19   
 Brain tumors   
