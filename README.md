@@ -22,7 +22,7 @@ ex) (task) &nbsp; ... (accuracy), (number of classes), (number of epochs)
 Pneumonia　&nbsp;... 80.77%, 2 classes, 10 epochs  
 Covid-19 &nbsp; &nbsp; &nbsp;... 84.85%, 3 classes, 30 epochs    
 Brain tumors ...  85.62%, 4 classes, 10 epochs  
-Retinal OCT &nbsp; ... 76.24%, 4 classes, 3 epochs  
+Retinal OCT &nbsp; ... 76.24%, 4 classes, 3 epochs  (*improved to 97.0% with 256x256 image input)  
 
 *The accuracy cannot be compared straightforwardly between different tasks as the size of datasets also differs.
 
